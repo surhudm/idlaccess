@@ -4,7 +4,7 @@ In order to access the IDL license from your own computer, follow these directio
 
 ## Install IDL 8.7.3
 
-Install IDL 8.7.3 from the IDL installer. You can get an idl installer from the algol.ac.iucaa.in.
+Install IDL 8.7.3 from the IDL installer. For linux, you can get an idl installer from the algol.ac.iucaa.in.
 
 ```
 scp algol.ac.iucaa.in:/opt/idl-8.7.3/idl-8.7.3/*.tar.gz .
@@ -13,6 +13,8 @@ sh install.sh
 ```
 
 Give the correct install path. When it asks if you need to run the license administrator, please say no.
+
+For MacOSX, find the IDL 8.7.3 IDL installer dmg.
 
 ## Create a ssh tunnel to IUCAA license server.
 
@@ -24,7 +26,7 @@ Give the password, this command will hang on the terminal. Keep this terminal op
 
 ## Borrow license from server
 
-Run the following command on another terminal.
+Run the following command on another terminal (works on linux, find corresponding command for macosx).
 ```
 harrislicense
 ```
